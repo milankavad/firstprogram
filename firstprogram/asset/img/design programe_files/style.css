@@ -1,0 +1,971 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.hader-section .nav-list .order-list li a {
+    text-decoration: none;
+    padding-right: 29px;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+
+.hader-section .nav-list .order-list ul {
+    display: flex;
+    align-items: baseline;
+}
+
+.hader-section {
+    margin: 0 auto;
+
+    /* color: #000; */
+
+}
+
+.hader-section .container {
+    max-width: 1504px;
+    margin: 0 auto;
+}
+
+.hader-section .hader-logo .brand-logo {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hader-section .nav-list {
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.hader-section .nav-list .order-list .btnsign {
+    color: #2AB691;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 11px 12px;
+    align-items: flex-start;
+    border-radius: 10px;
+    border: none;
+    background: rgba(42, 182, 145, 0.10);
+    gap: 10px;
+}
+
+.border {
+    height: 1px;
+    opacity: 0.05;
+    background: #000;
+}
+
+/* hero-banner start in css  */
+.container {
+    padding: 0px 10px;
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
+.hero-banner {
+    padding: 102px 0 161px;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-banner .hero-wrapper {
+    align-items: center;
+    justify-content: center;
+    display: flex
+}
+
+.hero-banner .hero-wrapper .left-block {
+    padding: 0px 10px;
+    width: 50%;
+
+}
+
+.hero-banner .hero-wrapper .right-block {
+    padding: 0px 10px;
+    width: 50%;
+
+}
+
+.hero-banner .hero-wrapper .left-block .text h1 {
+    color: #000;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -4.5px;
+}
+
+.hero-banner .hero-wrapper .left-block .text .paragraph {
+    max-width: 440px;
+    color: rgba(0, 0, 0, 0.50);
+    padding-top: 29px;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.8px;
+    margin-bottom: 44px;
+}
+
+.hero-banner .hero-wrapper .left-block .text .btnget {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    padding: 15px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #5F62E2;
+}
+
+.hero-banner .hero-wrapper .left-block .text .btnmore {
+    color: #5F62E2;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+    line-height: normal;
+    display: inline-flex;
+    border: navajowhite;
+    align-items: flex-start;
+    padding: 15px 16px;
+    border-radius: 10px;
+    background: rgba(95, 98, 226, 0.15);
+    font-family: 'Inter', sans-serif;
+    gap: 10px;
+}
+
+.hero-banner .hero-wrapper .left-block .buttonbar {
+    display: flex;
+    gap: 11px;
+}
+
+/* morden-presentatio in start css */
+.morden-presentatio {
+    background: rgb(104 107 255 / 10%);
+    padding: 136px 0px;
+}
+
+.morden-presentatio .presentatio-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.morden-presentatio .presentatio-left-block,
+.morden-presentatio .presentatio-right-block {
+    width: 50%;
+    /* padding: 0px 10px; */
+}
+
+.morden-presentatio .presentatio-right-block {
+    width: 42%;
+    /* padding: 0px 10px; */
+}
+
+
+.morden-presentatio .presentatio-left-block .card-section .card1 {
+    width: 100%;
+    max-width: 300px;
+    padding: 32px 32px 35px 32px;
+}
+
+.morden-presentatio .presentatio-left-block .card-section {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto;
+
+}
+
+.morden-presentatio .presentatio-left-block .card-section .card1 {
+    border-radius: 10px;
+    background: #FFF;
+    text-align: center;
+
+}
+
+.morden-presentatio .presentatio-left-block .card-section .card1 .card-titel {
+    padding-top: 23px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -1px;
+
+}
+
+.morden-presentatio .presentatio-left-block .card-section .card1 .card-paragraph {
+    padding-top: 10px;
+    max-width: 218px;
+    margin: auto;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.7px;
+}
+
+.morden-presentatio .presentatio-right-block .right-block-card-titel {
+    color: #000;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    /* 109.091% */
+    letter-spacing: -2.5px;
+}
+
+.morden-presentatio .presentatio-right-block .right-block-card-paragraph {
+    padding-top: 16px;
+    max-width: 450px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.8px;
+}
+
+.morden-presentatio .presentatio-right-block .btnexplor {
+    border: none;
+    margin-top: 29px;
+    display: inline-flex;
+    padding: 15px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(95, 98, 226, 0.1);
+    gap: 10px;
+    color: #5F62E2;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.morden-presentatio .presentatio-right-block .right-block-card-text {
+    padding-bottom: 21px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.8px;
+}
+
+.morden-presentatio .presentatio-right-block .social-icon .list-icon {
+    display: flex;
+    gap: 13px;
+    align-items: center !important;
+}
+
+.morden-presentatio .presentatio-right-block .social-icon ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.morden-presentatio .presentatio-right-block .social-icon li a {
+    border-radius: 50%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: rgb(196 196 196 / 60%);
+}
+
+.morden-presentatio .presentatio-right-block .social-section {
+    margin-top: 11.24rem
+}
+
+/* modern presentation in css  close */
+.info-section {
+    padding: 88px 0px 139px 0px;
+    background-color: #FFFfff;
+}
+
+.info-section .info-warper .info-warper-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-section .info-warper .info-warper-row .slider-left-block {
+    padding-top: 51px;
+    width: 100%;
+    max-width: calc(40% - 10px);
+}
+
+.info-section .info-warper .info-warper-row .slider-right-block {
+    width: 100%;
+    max-width: calc(60% - 10px);
+    text-align: center;
+}
+
+.info-section .info-warper .info-warper-row .slider-left-block .slider-part .banner {
+    display: flex;
+    gap: 15px;
+}
+
+.info-section .info-warper .info-warper-row .slider-left-block .slider-part {
+    padding-left: 30px;
+}
+
+.info-section .info-warper .info-warper-row .slider-left-block .slider-part .banner {
+    display: flex;
+    align-items: center;
+}
+
+.info-section .info-warper .info-warper-row .slider-left-block .slider-part .slider-brand1 .slider-text {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -0.8px;
+}
+
+.info-section .info-warper .info-warper-row .slider-left-block .slider-content .heade-text {
+    padding-top: 16px;
+
+    max-width: 463px;
+    color: #000;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -2.5px;
+}
+
+.info-section .info-warper .info-warper-row .slider-left-block .slider-content .heade-text {
+    position: relative;
+}
+
+.info-section .info-warper .info-warper-row .slider-left-block .slider-content .heade-text::before {
+    content: ' ';
+    background-image: url("../img/rightimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 15px;
+    left: -28px;
+    height: 18px;
+    width: 22px;
+}
+
+.info-section .info-warper .info-warper-row .slider-left-block .slider-content .heade-text::after {
+    content: "  ";
+    background-image: url("../img/leftimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18px;
+    width: 22px;
+    margin-left: 7px;
+    position: absolute;
+}
+
+.info-section .info-warper .info-warper-row .slider-left-block .slider-content .heade-paregraf {
+    padding-top: 26px;
+    padding-bottom: 40px;
+    max-width: 314px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.8px;
+}
+
+
+.slick-prev,
+.slick-next {
+
+    width: 0px;
+    height: 0px;
+}
+
+.slick-prev,
+.slick-next {
+
+    position: absolute;
+    top: 100%;
+    display: block;
+}
+
+.slick-next {
+    left: 90px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 0px;
+}
+
+.slick-prev {
+    left: 20px;
+}
+
+.info-section .social-brand .social-brand-row .brand-logo1 {
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-between;
+    padding-top: 69px;
+}
+
+.info-section .social-brand .social-brand-row .brand-logo1 svg path {
+    fill: rgba(0, 0, 0, 0.30);
+
+}
+
+
+
+/* modern presentation in css  close */
+
+/* illustrations in start in css */
+.illustrations-section {
+    padding: 120px 0px 104px 0px;
+
+    background: rgb(104 107 255 / 10%);
+    ;
+}
+
+.illustrations-section .vidyo-waraper .illustrations-warapers .illustrations-hading {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -2.5px;
+}
+
+.illustrations-section .vidyo-waraper .vidyo-path {
+    padding-top: 54px;
+    position: relative;
+}
+
+.illustrations-section .vidyo-waraper .vidyo-path .play-button-wareep {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* work section in css  */
+.work-section {
+    padding: 87px 0px 126px 0px;
+}
+
+.work-section .work-row-section {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+.work-section .row-reverse {
+    padding-top: 126px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.work-section .work-row-section .work-section-left-block {
+
+    width: 100%;
+    max-width: calc(50% - 75px);
+    padding-top: 18px;
+
+}
+
+.work-section .work-row-section .work-section-right-block {
+    width: 100%;
+    max-width: calc(50% - 75px);
+}
+
+.work-section .work2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.work-section .work-row-section .wokk {
+    padding-left: 60px;
+}
+
+.work-section .work-row-section .work-section-right-block .work-part-hading .hading-work {
+    max-width: 390px;
+    padding-bottom: 24px;
+    color: #000;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    /* 109.091% */
+    letter-spacing: -2.5px;
+}
+
+
+.work-section .work-row-section .work-section-right-block ul li {
+    display: flex;
+    padding-top: 14px;
+    gap: 10px;
+    align-items: center;
+}
+
+.work-section .work-row-section .work-section-right-block .work-conteny .work-list {
+    color: #000;
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.8px;
+}
+
+.work-section .work-row-section .work-section-right-block .btnmore {
+    border: none;
+    border-radius: 10px;
+    background: #5F62E2;
+    margin-top: 28px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    padding: 15px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* product-wraper in css start */
+.product-wraper {
+    padding: 0px 0px 176px 0px;
+}
+
+
+
+.work-section .work-row-section .work-section-right-block .learn {
+    color: #5F62E2;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 10px;
+    background: rgba(95, 98, 226, 0.15);
+}
+
+/* presentation-section in start */
+.presentation-section {
+    background: #5F62E2;
+    padding: 68px 0px 0px 0px;
+}
+
+.presentation-section .presentation-section-col {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.presentation-section .presentation-section-col .presentation-banner-left-block {
+    width: 100%;
+    max-width: calc(55% - 10px);
+}
+
+.presentation-section .presentation-section-col .presentation-banner-right-block {
+    width: 100%;
+    max-width: calc(45% - 10px);
+}
+
+.presentation-section .presentation-section-col .presentation-banner-left-block .getbtn {
+    display: flex;
+    gap: 12px;
+}
+
+.presentation-section .presentation-section-col .presentation-banner-right-block .presentation-banner-img {
+    background-image: url("../img/bmgbackimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.presentation-section .presentation-section-col .presentation-banner-right-block .presentation-banner-img .presentationimg {
+    margin: auto;
+    display: block;
+}
+
+.presentation-section .presentation-section-col .presentation-banner-left-block .presentation-hading .presentation-titel {
+    padding-bottom: 42px;
+    max-width: 700px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -2.5px;
+}
+
+.presentation-section .presentation-section-col .presentation-banner-left-block .btnstated {
+    color: #FFF;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    padding: 15px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: #2AB691;
+}
+
+.presentation-section .presentation-section-col .presentation-banner-left-block .btnlearn {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    display: inline-flex;
+    padding: 15px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.15);
+
+}
+
+
+/* blog-section in css start */
+
+.blog-section {
+    padding: 126px 0px 117px 0px;
+
+}
+
+.blog-section .card-parts-row .card-part-block .blog-hading .get {
+    padding-bottom: 18px;
+    color: #000;
+    font-family: Inter;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    /* 109.091% */
+    letter-spacing: -2.5px;
+}
+
+.blog-section .card-parts-row .card-part-block .card-titel .blog-paragraph {
+    max-width: 470px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 142.857% */
+    letter-spacing: -0.8px;
+}
+
+.blog-section .card-parts-row .card-part-block .card-titel {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.blog-section .card-parts-row .card-part-block .card-titel .btnall {
+    border: none;
+    color: #5F62E2;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    padding: 15px 16px;
+    border-radius: 10px;
+    background: rgba(95, 98, 226, 0.15);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.blog-section .blog-parts-row {
+    padding-top: 47px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blog-section .blog-parts-row .box1-blog {
+    width: 100%;
+    max-width: 410px;
+}
+
+.blog-section .blog-parts-row .box1-blog .card-titel .titel-make {
+    padding-top: 21px;
+    max-width: 342px;
+    color: #000;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.8px;
+}
+
+.blog-parts-row .box1-blog .blog-part-one .blog1img {
+    border-radius: 10px;
+    background: #F7F7FA;
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+}
+
+.blog-section .blog-parts-row .box1-blog .card-titel .card-paregraf {
+    padding-top: 18px;
+    max-width: 317px;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.7px;
+}
+
+.blog-section .blog-parts-row .box1-blog .card-titel .btndesign {
+    margin-top: 19px;
+    border: none;
+    padding-top: 19px;
+    color: #2AB691;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.7px;
+    display: inline-flex;
+    padding: 0px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    background: rgba(42, 182, 145, 0.11);
+}
+
+/* footer-section in start in css  */
+.footer-section {
+    padding: 82px 0px 82px 0px;
+    background: #000;
+}
+
+.footer-section .footer-row {
+    display: flex;
+    gap: 48px;
+
+}
+
+.footer-section .footer-row .footer-part1 .footer-hading {
+    padding-bottom: 22px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.footer-section .footer-row .footer-part1 {
+    max-width: 175px;
+    width: 100%;
+}
+
+.footer-section .footer-row .frow2 {
+    max-width: 500px;
+    width: 100%;
+}
+
+.footer-section .footer-row .footer-part1 ul li a {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+}
+
+.footer-section .footer-row .footer-part1 ul li a:hover {
+    padding-left: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.footer-section .footer-row .footer-part1 ul li {
+    padding-bottom: 20px;
+}
+
+.footer-section .footer-line {
+    margin-top: 56px;
+    opacity: 0.2;
+    background: #C4C4C4;
+}
+
+.footer-section .copyright-section {
+    display: flex;
+    align-items: center;
+    padding-top: 33px;
+    justify-content: space-between;
+}
+
+.footer-section .copyright-section .copyright-text {
+
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+    /* opacity: 
+    
+    
+    
+    
+    0.9; */
+}
+
+.footer-section .copyright-section .button-bar ul li {
+    background-color: rgb(196 196 196 / 10%);
+
+    /* opacity: 0.1;    */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-section .copyright-section .button-bar ul {
+    display: flex;
+    gap: 13px;
+}
+
+@media screen and (max-width:1440px) {}
+
+@media screen and (max-width:1024px) {
+    .blog-section .blog-parts-row {
+        display: flex;
+        gap: 10px;
+    }
+
+    .work-section .work-row-section .wokk {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .morden-presentatio .presentatio-left-block .card-section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+
+    }
+
+    .morden-presentatio .presentatio-row {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .morden-presentatio .presentatio-row .presentatio-left-block,
+    .morden-presentatio .presentatio-row .presentatio-right-block {
+        width: 67%;
+        margin: auto;
+    }
+
+    .morden-presentatio .presentatio-row .presentatio-left-block {
+        width: 100%;
+    }
+
+    .morden-presentatio .presentatio-row .presentatio-right-block {}
+
+    .morden-presentatio .presentatio-right-block .social-section {
+        margin-top: 1rem;
+    }
+
+    /* .info-section .info-warper .info-warper-row .slider-left-block,
+    .info-section .info-warper .info-warper-row .slider-right-block {
+        padding-top: 51px;
+        width: 100%;
+        max-width: 100%;
+    } */
+
+    
+
+}
